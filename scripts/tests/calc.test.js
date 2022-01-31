@@ -11,6 +11,12 @@ describe("Calculator", () => {
             expect(addition(20, 22)).toBe(42);
         })
     });
+
+    describe("Addition function", () => {
+        test("Should return 73 for 31 + 42", () => {
+            expect(addition(31, 42)).toBe(73);
+        })
+    });
     
     describe("Subtraction function", () => {
 
